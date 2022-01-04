@@ -2,46 +2,58 @@
 <testng-results ignored="0" total="16" passed="15" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-12-29T18:45:18 IST" name="Suite" finished-at="2021-12-29T18:46:05 IST" duration-ms="47328">
+  <suite started-at="2022-01-04T19:40:35 IST" name="Suite" finished-at="2022-01-04T19:41:41 IST" duration-ms="66629">
     <groups>
     </groups>
-    <test started-at="2021-12-29T18:45:18 IST" name="Test" finished-at="2021-12-29T18:46:05 IST" duration-ms="47328">
+    <test started-at="2022-01-04T19:40:35 IST" name="Test" finished-at="2022-01-04T19:41:41 IST" duration-ms="66629">
       <class name="com.evo.testcases.Home_test">
-        <test-method signature="TC001_Dashboard()[pri:0, instance:com.evo.testcases.Home_test@4d0d9fe7]" started-at="2021-12-29T18:45:32 IST" name="TC001_Dashboard" finished-at="2021-12-29T18:45:39 IST" duration-ms="6120" status="PASS">
+        <test-method signature="TC001_Dashboard()[pri:0, instance:com.evo.testcases.Home_test@4d0d9fe7]" started-at="2022-01-04T19:40:57 IST" name="TC001_Dashboard" finished-at="2022-01-04T19:41:05 IST" duration-ms="7712" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC001_Dashboard -->
-        <test-method signature="TC002_UserProfile()[pri:0, instance:com.evo.testcases.Home_test@4d0d9fe7]" started-at="2021-12-29T18:45:39 IST" name="TC002_UserProfile" finished-at="2021-12-29T18:45:39 IST" duration-ms="661" status="PASS">
+        <test-method signature="TC002_UserProfile()[pri:0, instance:com.evo.testcases.Home_test@4d0d9fe7]" started-at="2022-01-04T19:41:05 IST" name="TC002_UserProfile" finished-at="2022-01-04T19:41:06 IST" duration-ms="1223" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC002_UserProfile -->
-        <test-method signature="TC003_Tasks()[pri:0, instance:com.evo.testcases.Home_test@4d0d9fe7]" started-at="2021-12-29T18:45:39 IST" name="TC003_Tasks" finished-at="2021-12-29T18:45:40 IST" duration-ms="1288" status="PASS">
+        <test-method signature="TC003_Tasks()[pri:0, instance:com.evo.testcases.Home_test@4d0d9fe7]" started-at="2022-01-04T19:41:06 IST" name="TC003_Tasks" finished-at="2022-01-04T19:41:08 IST" duration-ms="1694" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC003_Tasks -->
-        <test-method signature="TC004_Projects()[pri:0, instance:com.evo.testcases.Home_test@4d0d9fe7]" started-at="2021-12-29T18:45:40 IST" name="TC004_Projects" finished-at="2021-12-29T18:45:41 IST" duration-ms="527" status="PASS">
+        <test-method signature="TC004_Projects()[pri:0, instance:com.evo.testcases.Home_test@4d0d9fe7]" started-at="2022-01-04T19:41:08 IST" name="TC004_Projects" finished-at="2022-01-04T19:41:09 IST" duration-ms="788" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC004_Projects -->
-        <test-method signature="TC005_Reports()[pri:0, instance:com.evo.testcases.Home_test@4d0d9fe7]" started-at="2021-12-29T18:45:41 IST" name="TC005_Reports" finished-at="2021-12-29T18:45:42 IST" duration-ms="1446" status="FAIL">
+        <test-method signature="TC005_Reports()[pri:0, instance:com.evo.testcases.Home_test@4d0d9fe7]" started-at="2022-01-04T19:41:09 IST" name="TC005_Reports" finished-at="2022-01-04T19:41:12 IST" duration-ms="3701" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC005_Reports -->
+        <test-method signature="TC006_Directory()[pri:0, instance:com.evo.testcases.Home_test@4d0d9fe7]" started-at="2022-01-04T19:41:12 IST" name="TC006_Directory" finished-at="2022-01-04T19:41:13 IST" duration-ms="434" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC006_Directory -->
+        <test-method signature="TC007_Communications()[pri:0, instance:com.evo.testcases.Home_test@4d0d9fe7]" started-at="2022-01-04T19:41:13 IST" name="TC007_Communications" finished-at="2022-01-04T19:41:18 IST" duration-ms="5712" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC007_Communications -->
+        <test-method signature="TC008_Documents()[pri:0, instance:com.evo.testcases.Home_test@4d0d9fe7]" started-at="2022-01-04T19:41:18 IST" name="TC008_Documents" finished-at="2022-01-04T19:41:20 IST" duration-ms="1481" status="FAIL">
           <exception class="org.openqa.selenium.ElementClickInterceptedException">
             <message>
-              <![CDATA[element click intercepted: Element <a _ngcontent-fen-c9="" class="task-name" id="notActive_/report" href="/enova.cossp.app/en/report" style="color: rgb(255, 255, 255);">...</a> is not clickable at point (68, 538). Other element would receive the click: <div _ngcontent-fen-c29="" class="loader-overlay">...</div>
+              <![CDATA[element click intercepted: Element <a _ngcontent-fgj-c9="" class="task-name" id="notActive_/allDocuments" href="/enova.cossp.app/en/allDocuments" style="color: rgb(255, 255, 255);">...</a> is not clickable at point (83, 641). Other element would receive the click: <div class="ui-tooltip-text ui-shadow ui-corner-all">...</div>
   (Session info: chrome=96.0.4664.110)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'IB-SEZ-LAP-793', ip: '192.168.29.139', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 95.0.4638.17 (a9d0719444d4b..., userDataDir: C:\Users\ZAID~1.NEZ\AppData...}, goog:chromeOptions: {debuggerAddress: localhost:58758}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 1e38e61654e9c9335846d9f86c4b264d]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 95.0.4638.17 (a9d0719444d4b..., userDataDir: C:\Users\ZAID~1.NEZ\AppData...}, goog:chromeOptions: {debuggerAddress: localhost:49815}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 3818d9a2d2c08d62a1e49e85fa11cd74]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a _ngcontent-fen-c9="" class="task-name" id="notActive_/report" href="/enova.cossp.app/en/report" style="color: rgb(255, 255, 255);">...</a> is not clickable at point (68, 538). Other element would receive the click: <div _ngcontent-fen-c29="" class="loader-overlay">...</div>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a _ngcontent-fgj-c9="" class="task-name" id="notActive_/allDocuments" href="/enova.cossp.app/en/allDocuments" style="color: rgb(255, 255, 255);">...</a> is not clickable at point (83, 641). Other element would receive the click: <div class="ui-tooltip-text ui-shadow ui-corner-all">...</div>
   (Session info: chrome=96.0.4664.110)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'IB-SEZ-LAP-793', ip: '192.168.29.139', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 95.0.4638.17 (a9d0719444d4b..., userDataDir: C:\Users\ZAID~1.NEZ\AppData...}, goog:chromeOptions: {debuggerAddress: localhost:58758}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 1e38e61654e9c9335846d9f86c4b264d
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 95.0.4638.17 (a9d0719444d4b..., userDataDir: C:\Users\ZAID~1.NEZ\AppData...}, goog:chromeOptions: {debuggerAddress: localhost:49815}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 3818d9a2d2c08d62a1e49e85fa11cd74
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -55,8 +67,8 @@ at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverComman
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
 at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
 at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
-at com.evo.pages.Home_Page.Reports(Home_Page.java:70)
-at com.evo.testcases.Home_test.TC005_Reports(Home_test.java:33)
+at com.evo.pages.Home_Page.Documents(Home_Page.java:112)
+at com.evo.testcases.Home_test.TC008_Documents(Home_test.java:48)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -90,50 +102,38 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TC005_Reports -->
-        <test-method signature="TC006_Directory()[pri:0, instance:com.evo.testcases.Home_test@4d0d9fe7]" started-at="2021-12-29T18:45:42 IST" name="TC006_Directory" finished-at="2021-12-29T18:45:43 IST" duration-ms="928" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC006_Directory -->
-        <test-method signature="TC007_Communications()[pri:0, instance:com.evo.testcases.Home_test@4d0d9fe7]" started-at="2021-12-29T18:45:43 IST" name="TC007_Communications" finished-at="2021-12-29T18:45:48 IST" duration-ms="4655" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC007_Communications -->
-        <test-method signature="TC008_Documents()[pri:0, instance:com.evo.testcases.Home_test@4d0d9fe7]" started-at="2021-12-29T18:45:48 IST" name="TC008_Documents" finished-at="2021-12-29T18:45:51 IST" duration-ms="2749" status="PASS">
-          <reporter-output>
-          </reporter-output>
         </test-method> <!-- TC008_Documents -->
-        <test-method signature="TC009_Help()[pri:0, instance:com.evo.testcases.Home_test@4d0d9fe7]" started-at="2021-12-29T18:45:51 IST" name="TC009_Help" finished-at="2021-12-29T18:45:53 IST" duration-ms="1901" status="PASS">
+        <test-method signature="TC009_Help()[pri:0, instance:com.evo.testcases.Home_test@4d0d9fe7]" started-at="2022-01-04T19:41:20 IST" name="TC009_Help" finished-at="2022-01-04T19:41:22 IST" duration-ms="1792" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC009_Help -->
-        <test-method signature="TC010_DigitalBusinessCard()[pri:0, instance:com.evo.testcases.Home_test@4d0d9fe7]" started-at="2021-12-29T18:45:53 IST" name="TC010_DigitalBusinessCard" finished-at="2021-12-29T18:45:53 IST" duration-ms="651" status="PASS">
+        <test-method signature="TC010_DigitalBusinessCard()[pri:0, instance:com.evo.testcases.Home_test@4d0d9fe7]" started-at="2022-01-04T19:41:22 IST" name="TC010_DigitalBusinessCard" finished-at="2022-01-04T19:41:22 IST" duration-ms="654" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC010_DigitalBusinessCard -->
-        <test-method signature="TC011_Admin()[pri:0, instance:com.evo.testcases.Home_test@4d0d9fe7]" started-at="2021-12-29T18:45:53 IST" name="TC011_Admin" finished-at="2021-12-29T18:45:58 IST" duration-ms="4910" status="PASS">
+        <test-method signature="TC011_Admin()[pri:0, instance:com.evo.testcases.Home_test@4d0d9fe7]" started-at="2022-01-04T19:41:22 IST" name="TC011_Admin" finished-at="2022-01-04T19:41:29 IST" duration-ms="6381" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC011_Admin -->
-        <test-method signature="TC012_ConrolVisibility()[pri:0, instance:com.evo.testcases.Home_test@4d0d9fe7]" started-at="2021-12-29T18:45:58 IST" name="TC012_ConrolVisibility" finished-at="2021-12-29T18:46:01 IST" duration-ms="2802" status="PASS">
+        <test-method signature="TC012_ConrolVisibility()[pri:0, instance:com.evo.testcases.Home_test@4d0d9fe7]" started-at="2022-01-04T19:41:29 IST" name="TC012_ConrolVisibility" finished-at="2022-01-04T19:41:36 IST" duration-ms="6954" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC012_ConrolVisibility -->
-        <test-method signature="TC013_MobileApp()[pri:0, instance:com.evo.testcases.Home_test@4d0d9fe7]" started-at="2021-12-29T18:46:01 IST" name="TC013_MobileApp" finished-at="2021-12-29T18:46:02 IST" duration-ms="512" status="PASS">
+        <test-method signature="TC013_MobileApp()[pri:0, instance:com.evo.testcases.Home_test@4d0d9fe7]" started-at="2022-01-04T19:41:36 IST" name="TC013_MobileApp" finished-at="2022-01-04T19:41:37 IST" duration-ms="1252" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC013_MobileApp -->
-        <test-method signature="TC014_B2C()[pri:0, instance:com.evo.testcases.Home_test@4d0d9fe7]" started-at="2021-12-29T18:46:02 IST" name="TC014_B2C" finished-at="2021-12-29T18:46:05 IST" duration-ms="3418" status="PASS">
+        <test-method signature="TC014_B2C()[pri:0, instance:com.evo.testcases.Home_test@4d0d9fe7]" started-at="2022-01-04T19:41:37 IST" name="TC014_B2C" finished-at="2022-01-04T19:41:41 IST" duration-ms="4032" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC014_B2C -->
-        <test-method signature="TC015_ApplicationVersion()[pri:0, instance:com.evo.testcases.Home_test@4d0d9fe7]" started-at="2021-12-29T18:46:05 IST" name="TC015_ApplicationVersion" finished-at="2021-12-29T18:46:05 IST" duration-ms="199" status="PASS">
+        <test-method signature="TC015_ApplicationVersion()[pri:0, instance:com.evo.testcases.Home_test@4d0d9fe7]" started-at="2022-01-04T19:41:41 IST" name="TC015_ApplicationVersion" finished-at="2022-01-04T19:41:41 IST" duration-ms="426" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC015_ApplicationVersion -->
       </class> <!-- com.evo.testcases.Home_test -->
       <class name="com.evo.testcases.Login_test">
-        <test-method signature="TC001_Login()[pri:0, instance:com.evo.testcases.Login_test@247310d0]" started-at="2021-12-29T18:45:18 IST" name="TC001_Login" finished-at="2021-12-29T18:45:32 IST" duration-ms="14364" status="PASS">
+        <test-method signature="TC001_Login()[pri:0, instance:com.evo.testcases.Login_test@247310d0]" started-at="2022-01-04T19:40:35 IST" name="TC001_Login" finished-at="2022-01-04T19:40:57 IST" duration-ms="22115" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC001_Login -->

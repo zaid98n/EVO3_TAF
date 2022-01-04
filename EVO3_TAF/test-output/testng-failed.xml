@@ -9,7 +9,7 @@
     <classes>
       <class name="com.evo.testcases.Home_test">
         <methods>
-          <include name="TC005_Reports"/>
+          <include name="TC008_Documents"/>
         </methods>
       </class> <!-- com.evo.testcases.Home_test -->
     </classes>
