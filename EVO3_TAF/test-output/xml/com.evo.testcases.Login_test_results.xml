@@ -4,10 +4,10 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="22.115">
+           time="32.854">
   <properties />
   
   
-            <testcase name="TC001_Login" time="22.115" classname="com.evo.testcases.Login_test" />
+            <testcase name="TC001_Login" time="32.854" classname="com.evo.testcases.Login_test" />
       
 </testsuite>

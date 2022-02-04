@@ -9,7 +9,8 @@
     <classes>
       <class name="com.evo.testcases.Home_test">
         <methods>
-          <include name="TC008_Documents"/>
+          <include name="takeScreenShotOnFailure"/>
+          <include name="TC007_Communications"/>
         </methods>
       </class> <!-- com.evo.testcases.Home_test -->
     </classes>
