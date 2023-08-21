@@ -1,14 +1,9 @@
 package com.evo.commonUtils;
 
 import java.io.File;
-import java.io.IOException;
-import java.util.Date;
-
-import org.openqa.selenium.Keys;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.interactions.Actions;
 import org.apache.commons.io.FileUtils;
 
 public class Screenshot {
