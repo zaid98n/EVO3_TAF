@@ -7,7 +7,7 @@ import org.openqa.selenium.WebElement;
 
 import com.evo.commonUtils.*;
 
-public class Login_Page {
+public class Login_Page extends BrowserFactory{
 	
 	public void setUsername(String data) throws IOException, InterruptedException  {
 		BrowserFactory.LaunchBrowser().manage().timeouts().implicitlyWait(Long.parseLong(ReadConfig.getValue("implicitwait")), TimeUnit.SECONDS);
